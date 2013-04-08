@@ -7,40 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AVFoundation/AvFoundation.h"
 
-@interface ViewController : UIViewController {
-    UIImageView *_imageView1;
-    UIImageView *_imageView2;
-    UIImageView *_imageView3;
-    UIImageView *_imageView4;
-    UIImageView *_imageView5;
-    UIImageView *_imageView6;
-    UIImageView *_imageView7;
-    UIImageView *_imageView8;
-    UIImageView *_imageView9;
-    UIImageView *_imageView10;
-    UIImageView *_imageView11;
-    UIImageView *_imageView12;
-    
-    UIImageView *_backImage1;
-    UIImageView *_backImage2;
-    UIImageView *_backImage3;
-    UIImageView *_backImage4;
-    UIImageView *_backImage5;
-    UIImageView *_backImage6;
-    UIImageView *_backImage7;
-    UIImageView *_backImage8;
-    UIImageView *_backImage9;
-    UIImageView *_backImage10;
-    UIImageView *_backImage11;
-    UIImageView *_backImage12;
-    
-    NSMutableArray *_arrayOfImage;
-    
-    UISlider *_sliderTime;
-    UIButton *_rePlay;
-    
-    NSTimer *_timer;
+@interface ViewController : UIViewController <AVAudioPlayerDelegate>{
+        
 }
 
 @end
