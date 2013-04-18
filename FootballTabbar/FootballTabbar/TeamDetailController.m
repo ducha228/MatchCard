@@ -60,7 +60,7 @@
     
     _listPlayer =[dataManager readPlayerInTeam:_team];
         
-    CGRect frame = CGRectMake(0, 100, 320, 350);
+    CGRect frame = CGRectMake(0, 100, 320, 310);
     _tableView = [[UITableView alloc] initWithFrame:frame style:UITableViewStyleGrouped];
     _tableView.scrollEnabled = YES;
     _tableView.dataSource = self;
