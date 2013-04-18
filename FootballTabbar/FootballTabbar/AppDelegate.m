@@ -21,7 +21,7 @@
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
     PlayerViewController *playerVC = [[PlayerViewController alloc] initWithNibName:@"PlayerViewController" bundle:nil];
-    AllClubViewController *clubVC = [[AllClubViewController alloc] initWithNibName:@"ClubViewController" bundle:nil];
+    AllClubViewController *clubVC = [[AllClubViewController alloc] initWithNibName:@"AllClubViewController" bundle:nil];
     ScheduleViewController *scheduleVC = [[ScheduleViewController alloc] initWithNibName:@"ScheduleViewController" bundle:nil];
     
     UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:playerVC];
