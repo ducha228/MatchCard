@@ -35,8 +35,9 @@
     DataManager *dataManager = [[DataManager alloc] init];
     
     _listPlayer = [dataManager readPlayer];
-    //CGRect frame = CGRectMake(0, 100, 320, 300);
-    _tableView = [[UITableView alloc] initWithFrame:[[UIScreen mainScreen] bounds] style:UITableViewStylePlain];
+    CGRect frame = [[UIScreen mainScreen] bounds];
+    frame.size.height = frame.size.height - 100;
+    _tableView = [[UITableView alloc] initWithFrame:frame style:UITableViewStylePlain];
     //_tableView.scrollEnabled = YES;
     _tableView.dataSource = self;
     _tableView.delegate = self;
