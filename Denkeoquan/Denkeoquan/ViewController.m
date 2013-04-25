@@ -104,6 +104,7 @@
     {
         
     }
+    imageView.alpha = 0.75;
     imageView.image = [UIImage imageNamed:[_imageArray objectAtIndex:index]];
 //    
 //    UISwipeGestureRecognizer *swipeLeft = [[UISwipeGestureRecognizer alloc] initWithTarget:self
