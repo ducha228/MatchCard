@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface MyAppDelegate : NSObject
+@class ViewController;
+
+@interface MyAppDelegate : NSObject <UIApplicationDelegate>
+{
+    UIWindow *window;
+    ViewController *viewController;
+}
 
 @end

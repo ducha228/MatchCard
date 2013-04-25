@@ -7,7 +7,18 @@
 //
 
 #import "MyAppDelegate.h"
+#import "ViewController.h"
 
 @implementation MyAppDelegate
+
+- (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    window = [[UIWindow alloc] init];
+    window.screen = [UIScreen mainScreen];
+    viewController = [[ViewController alloc] init];
+    [window addSubview:viewController.view];
+    [window makeKeyAndVisible];
+    return YES;
+}
 
 @end

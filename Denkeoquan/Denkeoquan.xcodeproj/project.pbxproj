@@ -7,20 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A645D551728FCB500C7C303 /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A645D541728FCB500C7C303 /* MyAppDelegate.m */; };
+		0A645D571729083900C7C303 /* trung thu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A645D561729083900C7C303 /* trung thu.jpg */; };
+		0A645D5B1729095E00C7C303 /* Chiec Den Ong Sao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A645D5A1729095E00C7C303 /* Chiec Den Ong Sao.mp3 */; };
 		0AF95C4117284E990099C696 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF95C4017284E990099C696 /* UIKit.framework */; };
 		0AF95C4317284E990099C696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF95C4217284E990099C696 /* Foundation.framework */; };
 		0AF95C4517284E9A0099C696 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF95C4417284E990099C696 /* CoreGraphics.framework */; };
 		0AF95C4B17284E9A0099C696 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C4917284E9A0099C696 /* InfoPlist.strings */; };
 		0AF95C4D17284E9A0099C696 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF95C4C17284E9A0099C696 /* main.m */; };
-		0AF95C5117284E9A0099C696 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF95C5017284E9A0099C696 /* AppDelegate.m */; };
 		0AF95C5317284E9A0099C696 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C5217284E9A0099C696 /* Default.png */; };
 		0AF95C5517284E9A0099C696 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C5417284E9A0099C696 /* Default@2x.png */; };
 		0AF95C5717284E9A0099C696 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C5617284E9A0099C696 /* Default-568h@2x.png */; };
 		0AF95C5A17284E9A0099C696 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF95C5917284E9A0099C696 /* ViewController.m */; };
 		0AF95C5D17284E9A0099C696 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C5B17284E9A0099C696 /* ViewController.xib */; };
+		0AF95C69172851A70099C696 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF95C68172851A70099C696 /* iCarousel.m */; };
+		0AF95C87172857D80099C696 /* Cay khe0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C6A172857D60099C696 /* Cay khe0.jpg */; };
+		0AF95C88172857D80099C696 /* Cay khe1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C6B172857D60099C696 /* Cay khe1.jpg */; };
+		0AF95C89172857D80099C696 /* Cay khe2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C6C172857D70099C696 /* Cay khe2.jpg */; };
+		0AF95C8A172857D80099C696 /* Cay khe3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C6D172857D70099C696 /* Cay khe3.jpg */; };
+		0AF95C8B172857D80099C696 /* Cay khe4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C6E172857D70099C696 /* Cay khe4.jpg */; };
+		0AF95C8C172857D80099C696 /* Cay khe5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C6F172857D70099C696 /* Cay khe5.jpg */; };
+		0AF95C8D172857D80099C696 /* Cay khe6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C70172857D70099C696 /* Cay khe6.jpg */; };
+		0AF95C8E172857D80099C696 /* Cay khe7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C71172857D70099C696 /* Cay khe7.jpg */; };
+		0AF95C8F172857D80099C696 /* Cay khe8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C72172857D70099C696 /* Cay khe8.jpg */; };
+		0AF95C90172857D80099C696 /* Cay khe9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C73172857D70099C696 /* Cay khe9.jpg */; };
+		0AF95C91172857D80099C696 /* Cay khe10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C74172857D70099C696 /* Cay khe10.jpg */; };
+		0AF95C92172857D80099C696 /* Cay khe11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C75172857D70099C696 /* Cay khe11.jpg */; };
+		0AF95C93172857D80099C696 /* Cay khe12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C76172857D70099C696 /* Cay khe12.jpg */; };
+		0AF95C94172857D80099C696 /* Cay khe13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C77172857D70099C696 /* Cay khe13.jpg */; };
+		0AF95C95172857D80099C696 /* Cay khe14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C78172857D70099C696 /* Cay khe14.jpg */; };
+		0AF95C96172857D80099C696 /* Cay khe15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C79172857D70099C696 /* Cay khe15.jpg */; };
+		0AF95C97172857D80099C696 /* Cay khe16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C7A172857D70099C696 /* Cay khe16.jpg */; };
+		0AF95C98172857D80099C696 /* Cay khe17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C7B172857D80099C696 /* Cay khe17.jpg */; };
+		0AF95C99172857D80099C696 /* Cay khe18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C7C172857D80099C696 /* Cay khe18.jpg */; };
+		0AF95C9A172857D80099C696 /* Cay khe19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C7D172857D80099C696 /* Cay khe19.jpg */; };
+		0AF95C9B172857D80099C696 /* Cay khe20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C7E172857D80099C696 /* Cay khe20.jpg */; };
+		0AF95C9C172857D80099C696 /* Cay khe21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C7F172857D80099C696 /* Cay khe21.jpg */; };
+		0AF95C9D172857D80099C696 /* Cay khe22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C80172857D80099C696 /* Cay khe22.jpg */; };
+		0AF95C9E172857D80099C696 /* Cay khe23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C81172857D80099C696 /* Cay khe23.jpg */; };
+		0AF95C9F172857D80099C696 /* Cay khe24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C82172857D80099C696 /* Cay khe24.jpg */; };
+		0AF95CA0172857D80099C696 /* Cay khe25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C83172857D80099C696 /* Cay khe25.jpg */; };
+		0AF95CA1172857D80099C696 /* Cay khe26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C84172857D80099C696 /* Cay khe26.jpg */; };
+		0AF95CA2172857D80099C696 /* Cay khe27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C85172857D80099C696 /* Cay khe27.jpg */; };
+		0AF95CA3172857D80099C696 /* Cay khe28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF95C86172857D80099C696 /* Cay khe28.jpg */; };
+		0AF95CA6172859A80099C696 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF95CA5172859A80099C696 /* AVFoundation.framework */; };
+		0AF95CA8172859B00099C696 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF95CA7172859B00099C696 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A645D531728FCB500C7C303 /* MyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAppDelegate.h; sourceTree = "<group>"; };
+		0A645D541728FCB500C7C303 /* MyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAppDelegate.m; sourceTree = "<group>"; };
+		0A645D561729083900C7C303 /* trung thu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "trung thu.jpg"; sourceTree = "<group>"; };
+		0A645D5A1729095E00C7C303 /* Chiec Den Ong Sao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chiec Den Ong Sao.mp3"; sourceTree = SOURCE_ROOT; };
 		0AF95C3D17284E990099C696 /* Denkeoquan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Denkeoquan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF95C4017284E990099C696 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0AF95C4217284E990099C696 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,14 +67,45 @@
 		0AF95C4A17284E9A0099C696 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AF95C4C17284E9A0099C696 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AF95C4E17284E9A0099C696 /* Denkeoquan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Denkeoquan-Prefix.pch"; sourceTree = "<group>"; };
-		0AF95C4F17284E9A0099C696 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0AF95C5017284E9A0099C696 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0AF95C5217284E9A0099C696 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0AF95C5417284E9A0099C696 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0AF95C5617284E9A0099C696 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0AF95C5817284E9A0099C696 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0AF95C5917284E9A0099C696 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0AF95C5C17284E9A0099C696 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0AF95C67172851A70099C696 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		0AF95C68172851A70099C696 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		0AF95C6A172857D60099C696 /* Cay khe0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe0.jpg"; sourceTree = "<group>"; };
+		0AF95C6B172857D60099C696 /* Cay khe1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe1.jpg"; sourceTree = "<group>"; };
+		0AF95C6C172857D70099C696 /* Cay khe2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe2.jpg"; sourceTree = "<group>"; };
+		0AF95C6D172857D70099C696 /* Cay khe3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe3.jpg"; sourceTree = "<group>"; };
+		0AF95C6E172857D70099C696 /* Cay khe4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe4.jpg"; sourceTree = "<group>"; };
+		0AF95C6F172857D70099C696 /* Cay khe5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe5.jpg"; sourceTree = "<group>"; };
+		0AF95C70172857D70099C696 /* Cay khe6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe6.jpg"; sourceTree = "<group>"; };
+		0AF95C71172857D70099C696 /* Cay khe7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe7.jpg"; sourceTree = "<group>"; };
+		0AF95C72172857D70099C696 /* Cay khe8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe8.jpg"; sourceTree = "<group>"; };
+		0AF95C73172857D70099C696 /* Cay khe9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe9.jpg"; sourceTree = "<group>"; };
+		0AF95C74172857D70099C696 /* Cay khe10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe10.jpg"; sourceTree = "<group>"; };
+		0AF95C75172857D70099C696 /* Cay khe11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe11.jpg"; sourceTree = "<group>"; };
+		0AF95C76172857D70099C696 /* Cay khe12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe12.jpg"; sourceTree = "<group>"; };
+		0AF95C77172857D70099C696 /* Cay khe13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe13.jpg"; sourceTree = "<group>"; };
+		0AF95C78172857D70099C696 /* Cay khe14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe14.jpg"; sourceTree = "<group>"; };
+		0AF95C79172857D70099C696 /* Cay khe15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe15.jpg"; sourceTree = "<group>"; };
+		0AF95C7A172857D70099C696 /* Cay khe16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe16.jpg"; sourceTree = "<group>"; };
+		0AF95C7B172857D80099C696 /* Cay khe17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe17.jpg"; sourceTree = "<group>"; };
+		0AF95C7C172857D80099C696 /* Cay khe18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe18.jpg"; sourceTree = "<group>"; };
+		0AF95C7D172857D80099C696 /* Cay khe19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe19.jpg"; sourceTree = "<group>"; };
+		0AF95C7E172857D80099C696 /* Cay khe20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe20.jpg"; sourceTree = "<group>"; };
+		0AF95C7F172857D80099C696 /* Cay khe21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe21.jpg"; sourceTree = "<group>"; };
+		0AF95C80172857D80099C696 /* Cay khe22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe22.jpg"; sourceTree = "<group>"; };
+		0AF95C81172857D80099C696 /* Cay khe23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe23.jpg"; sourceTree = "<group>"; };
+		0AF95C82172857D80099C696 /* Cay khe24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe24.jpg"; sourceTree = "<group>"; };
+		0AF95C83172857D80099C696 /* Cay khe25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe25.jpg"; sourceTree = "<group>"; };
+		0AF95C84172857D80099C696 /* Cay khe26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe26.jpg"; sourceTree = "<group>"; };
+		0AF95C85172857D80099C696 /* Cay khe27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe27.jpg"; sourceTree = "<group>"; };
+		0AF95C86172857D80099C696 /* Cay khe28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cay khe28.jpg"; sourceTree = "<group>"; };
+		0AF95CA5172859A80099C696 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0AF95CA7172859B00099C696 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +113,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF95CA8172859B00099C696 /* QuartzCore.framework in Frameworks */,
+				0AF95CA6172859A80099C696 /* AVFoundation.framework in Frameworks */,
 				0AF95C4117284E990099C696 /* UIKit.framework in Frameworks */,
 				0AF95C4317284E990099C696 /* Foundation.framework in Frameworks */,
 				0AF95C4517284E9A0099C696 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +127,8 @@
 		0AF95C3417284E990099C696 = {
 			isa = PBXGroup;
 			children = (
+				0AF95CA7172859B00099C696 /* QuartzCore.framework */,
+				0AF95CA5172859A80099C696 /* AVFoundation.framework */,
 				0AF95C4617284E9A0099C696 /* Denkeoquan */,
 				0AF95C3F17284E990099C696 /* Frameworks */,
 				0AF95C3E17284E990099C696 /* Products */,
@@ -83,8 +156,11 @@
 		0AF95C4617284E9A0099C696 /* Denkeoquan */ = {
 			isa = PBXGroup;
 			children = (
-				0AF95C4F17284E9A0099C696 /* AppDelegate.h */,
-				0AF95C5017284E9A0099C696 /* AppDelegate.m */,
+				0AF95CA4172857DC0099C696 /* Resource */,
+				0AF95C67172851A70099C696 /* iCarousel.h */,
+				0AF95C68172851A70099C696 /* iCarousel.m */,
+				0A645D531728FCB500C7C303 /* MyAppDelegate.h */,
+				0A645D541728FCB500C7C303 /* MyAppDelegate.m */,
 				0AF95C5817284E9A0099C696 /* ViewController.h */,
 				0AF95C5917284E9A0099C696 /* ViewController.m */,
 				0AF95C5B17284E9A0099C696 /* ViewController.xib */,
@@ -105,6 +181,44 @@
 				0AF95C5617284E9A0099C696 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AF95CA4172857DC0099C696 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0A645D5A1729095E00C7C303 /* Chiec Den Ong Sao.mp3 */,
+				0A645D561729083900C7C303 /* trung thu.jpg */,
+				0AF95C6A172857D60099C696 /* Cay khe0.jpg */,
+				0AF95C6B172857D60099C696 /* Cay khe1.jpg */,
+				0AF95C6C172857D70099C696 /* Cay khe2.jpg */,
+				0AF95C6D172857D70099C696 /* Cay khe3.jpg */,
+				0AF95C6E172857D70099C696 /* Cay khe4.jpg */,
+				0AF95C6F172857D70099C696 /* Cay khe5.jpg */,
+				0AF95C70172857D70099C696 /* Cay khe6.jpg */,
+				0AF95C71172857D70099C696 /* Cay khe7.jpg */,
+				0AF95C72172857D70099C696 /* Cay khe8.jpg */,
+				0AF95C73172857D70099C696 /* Cay khe9.jpg */,
+				0AF95C74172857D70099C696 /* Cay khe10.jpg */,
+				0AF95C75172857D70099C696 /* Cay khe11.jpg */,
+				0AF95C76172857D70099C696 /* Cay khe12.jpg */,
+				0AF95C77172857D70099C696 /* Cay khe13.jpg */,
+				0AF95C78172857D70099C696 /* Cay khe14.jpg */,
+				0AF95C79172857D70099C696 /* Cay khe15.jpg */,
+				0AF95C7A172857D70099C696 /* Cay khe16.jpg */,
+				0AF95C7B172857D80099C696 /* Cay khe17.jpg */,
+				0AF95C7C172857D80099C696 /* Cay khe18.jpg */,
+				0AF95C7D172857D80099C696 /* Cay khe19.jpg */,
+				0AF95C7E172857D80099C696 /* Cay khe20.jpg */,
+				0AF95C7F172857D80099C696 /* Cay khe21.jpg */,
+				0AF95C80172857D80099C696 /* Cay khe22.jpg */,
+				0AF95C81172857D80099C696 /* Cay khe23.jpg */,
+				0AF95C82172857D80099C696 /* Cay khe24.jpg */,
+				0AF95C83172857D80099C696 /* Cay khe25.jpg */,
+				0AF95C84172857D80099C696 /* Cay khe26.jpg */,
+				0AF95C85172857D80099C696 /* Cay khe27.jpg */,
+				0AF95C86172857D80099C696 /* Cay khe28.jpg */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +277,37 @@
 				0AF95C5517284E9A0099C696 /* Default@2x.png in Resources */,
 				0AF95C5717284E9A0099C696 /* Default-568h@2x.png in Resources */,
 				0AF95C5D17284E9A0099C696 /* ViewController.xib in Resources */,
+				0AF95C87172857D80099C696 /* Cay khe0.jpg in Resources */,
+				0AF95C88172857D80099C696 /* Cay khe1.jpg in Resources */,
+				0AF95C89172857D80099C696 /* Cay khe2.jpg in Resources */,
+				0AF95C8A172857D80099C696 /* Cay khe3.jpg in Resources */,
+				0AF95C8B172857D80099C696 /* Cay khe4.jpg in Resources */,
+				0AF95C8C172857D80099C696 /* Cay khe5.jpg in Resources */,
+				0AF95C8D172857D80099C696 /* Cay khe6.jpg in Resources */,
+				0AF95C8E172857D80099C696 /* Cay khe7.jpg in Resources */,
+				0AF95C8F172857D80099C696 /* Cay khe8.jpg in Resources */,
+				0AF95C90172857D80099C696 /* Cay khe9.jpg in Resources */,
+				0AF95C91172857D80099C696 /* Cay khe10.jpg in Resources */,
+				0AF95C92172857D80099C696 /* Cay khe11.jpg in Resources */,
+				0AF95C93172857D80099C696 /* Cay khe12.jpg in Resources */,
+				0AF95C94172857D80099C696 /* Cay khe13.jpg in Resources */,
+				0AF95C95172857D80099C696 /* Cay khe14.jpg in Resources */,
+				0AF95C96172857D80099C696 /* Cay khe15.jpg in Resources */,
+				0AF95C97172857D80099C696 /* Cay khe16.jpg in Resources */,
+				0AF95C98172857D80099C696 /* Cay khe17.jpg in Resources */,
+				0AF95C99172857D80099C696 /* Cay khe18.jpg in Resources */,
+				0AF95C9A172857D80099C696 /* Cay khe19.jpg in Resources */,
+				0AF95C9B172857D80099C696 /* Cay khe20.jpg in Resources */,
+				0AF95C9C172857D80099C696 /* Cay khe21.jpg in Resources */,
+				0AF95C9D172857D80099C696 /* Cay khe22.jpg in Resources */,
+				0AF95C9E172857D80099C696 /* Cay khe23.jpg in Resources */,
+				0AF95C9F172857D80099C696 /* Cay khe24.jpg in Resources */,
+				0AF95CA0172857D80099C696 /* Cay khe25.jpg in Resources */,
+				0AF95CA1172857D80099C696 /* Cay khe26.jpg in Resources */,
+				0AF95CA2172857D80099C696 /* Cay khe27.jpg in Resources */,
+				0AF95CA3172857D80099C696 /* Cay khe28.jpg in Resources */,
+				0A645D571729083900C7C303 /* trung thu.jpg in Resources */,
+				0A645D5B1729095E00C7C303 /* Chiec Den Ong Sao.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,8 +319,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AF95C4D17284E9A0099C696 /* main.m in Sources */,
-				0AF95C5117284E9A0099C696 /* AppDelegate.m in Sources */,
 				0AF95C5A17284E9A0099C696 /* ViewController.m in Sources */,
+				0AF95C69172851A70099C696 /* iCarousel.m in Sources */,
+				0A645D551728FCB500C7C303 /* MyAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +409,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Denkeoquan/Denkeoquan-Prefix.pch";
 				INFOPLIST_FILE = "Denkeoquan/Denkeoquan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -274,7 +422,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Denkeoquan/Denkeoquan-Prefix.pch";
 				INFOPLIST_FILE = "Denkeoquan/Denkeoquan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,6 +448,7 @@
 				0AF95C6217284E9A0099C696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

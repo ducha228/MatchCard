@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "iCarousel.h"
+#import <QuartzCore/QuartzCore.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <iCarouselDataSource, iCarouselDelegate>
+{
+    
+}
+@property (retain, nonatomic) iCarousel *carousel;
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
 
 @end

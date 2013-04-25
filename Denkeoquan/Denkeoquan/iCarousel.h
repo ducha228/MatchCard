@@ -214,13 +214,13 @@ iCarouselOption;
 
 - (NSUInteger)numberOfItemsInCarousel:(iCarousel *)carousel;
 - (UIView *)carousel:(iCarousel *)carousel viewForItemAtIndex:(NSUInteger)index reusingView:(UIView *)view;
-- (void) play:(iCarousel*)carousel;
+
 
 @optional
 
 - (NSUInteger)numberOfPlaceholdersInCarousel:(iCarousel *)carousel;
 - (UIView *)carousel:(iCarousel *)carousel placeholderViewAtIndex:(NSUInteger)index reusingView:(UIView *)view;
-
+- (void) play:(iCarousel*)carousel;
 @end
 
 
