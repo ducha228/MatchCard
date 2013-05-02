@@ -18,8 +18,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    DataManager *dataManager = [DataManager new];
-    [dataManager writeData];
     
     NSString *pathName = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"/"];
     NSString *htmlString = [NSString stringWithContentsOfFile:pathName encoding:NSUTF8StringEncoding error:nil];

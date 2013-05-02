@@ -19,12 +19,10 @@
 		0A3692391731708E00092D2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3692381731708E00092D2B /* ViewController.m */; };
 		0A36923C1731708E00092D2B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A36923A1731708E00092D2B /* ViewController.xib */; };
 		0A369243173170A700092D2B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0A369242173170A700092D2B /* index.html */; };
-		0A44E82E17325F0100A4E8F4 /* d3.js in Sources */ = {isa = PBXBuildFile; fileRef = 0A44E82D17325F0100A4E8F4 /* d3.js */; };
 		0A44E8301732673B00A4E8F4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A44E82F1732673B00A4E8F4 /* AVFoundation.framework */; };
 		0A44E83217326AFE00A4E8F4 /* ManchesterUnited.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0A44E83117326AFE00A4E8F4 /* ManchesterUnited.mp3 */; };
 		0AEAF92A1732021C0028355A /* data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0AEAF9291732021C0028355A /* data.csv */; };
 		0AEAF92C17320ADC0028355A /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AEAF92B17320ADC0028355A /* data.plist */; };
-		0AEAF92F17320C710028355A /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEAF92E17320C700028355A /* DataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,13 +43,10 @@
 		0A3692381731708E00092D2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A36923B1731708E00092D2B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		0A369242173170A700092D2B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		0A44E82D17325F0100A4E8F4 /* d3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = d3.js; sourceTree = "<group>"; };
 		0A44E82F1732673B00A4E8F4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0A44E83117326AFE00A4E8F4 /* ManchesterUnited.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ManchesterUnited.mp3; sourceTree = "<group>"; };
 		0AEAF9291732021C0028355A /* data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.csv; sourceTree = "<group>"; };
 		0AEAF92B17320ADC0028355A /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
-		0AEAF92D17320C700028355A /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
-		0AEAF92E17320C700028355A /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +105,6 @@
 				0A369242173170A700092D2B /* index.html */,
 				0AEAF9291732021C0028355A /* data.csv */,
 				0AEAF92B17320ADC0028355A /* data.plist */,
-				0AEAF92D17320C700028355A /* DataManager.h */,
-				0AEAF92E17320C700028355A /* DataManager.m */,
-				0A44E82D17325F0100A4E8F4 /* d3.js */,
 			);
 			path = GraphicsChart;
 			sourceTree = "<group>";
@@ -204,8 +196,6 @@
 				0A36922C1731708E00092D2B /* main.m in Sources */,
 				0A3692301731708E00092D2B /* AppDelegate.m in Sources */,
 				0A3692391731708E00092D2B /* ViewController.m in Sources */,
-				0AEAF92F17320C710028355A /* DataManager.m in Sources */,
-				0A44E82E17325F0100A4E8F4 /* d3.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

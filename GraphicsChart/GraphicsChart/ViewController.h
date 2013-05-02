@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DataManager.h"
 #import <AVFoundation/AVFoundation.h>
 
 @interface ViewController : UIViewController <UIWebViewDelegate>
